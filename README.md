@@ -1,16 +1,27 @@
 # Razer-Blade-2021-Hackintosh
 
 Dual boot MacOS Big Sur 11.5.2 for daily use, Windows for gaming.
+
 CPU: i7 10875H 2,3 GHz 8-Core
+
 GPU: RTX3080
+
 RAM:32 GB 2933 MHz DDR4
+
 Laptop Make and Model: Razer Blade Advanced 2021
+
 Screen: 15" 240Hz QHD
+
 Audio Codec: Realtek 298
+
 Ethernet Card: None
+
 Wifi/BT Card: Replaced Intel card with Broadcom BCM94360NG
+
 Storage: Added second SSD for MacOS: Sabrent Rocket 1TB NVMe PCIe M.2
+
 BIOS revision: Razer BIOS 1.03 (no mods)
+
 
 WORKING:
 Screen works out of the box. Use HiDPI to get scalinghttps://github.com/xzhih/one-key-hidpi
@@ -23,11 +34,13 @@ CPU Power Management works, unable to Undervolt due to BIOS lock.
 Battery readout (battery life around 3-4 hours on light use)
 Opencore GUI UEFI menu + Boot chime
 
+
 NOT WORKING:
 Features not working: Handoff, App Store login
 dGPU for obvious reasons
 HDMI out (wired directly to dGPU)
 Keyboard RGB color control
+
 
 NOT TESTED:
 Thunderbolt
